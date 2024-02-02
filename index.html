@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Young Dev Intern|Logistics Company</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="#"><img src="images/logo,jpg.jpg" alt="logo" /></a>
+      </div>
+      <ul class="nav__links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#why-us">Why Us</a></li>
+        <li class="link"><a href="#Services">Service</a></li>
+        <li class="link"><a href="#About">About</a></li>
+        <li class="link"><a href="#footer">Contact</a></li>
+      </ul>
+      <button class="btn" onclick="sendEmail()">Contact Us</button>
+
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__content">
+        <span class="bg__blur"></span>
+        <span class="bg__blur header__blur"></span>
+        <h4><b>BEST LOGISTICS COMPANY IN THE TOWN</b></h4>
+        <h1><span>HH</span> LOGISTICS</h1>
+        <p>
+          Welcome to HH Logistics, where precision meets efficiency in the world of logistics. Our commitment is to seamlessly navigate the supply chain, ensuring your cargo reaches its destination with unmatched reliability.
+        </p>
+        <button class="btn" onclick="showBookingPrompt()">Book Us Now</button>
+
+      </div>
+      <div class="header__image">
+        <img src="images/img.jpg" alt="header" />
+      </div>
+    </header>
+
+    <section class="section__container explore__container" id="About">
+      <div class="explore__header">
+        <h2 class="section__header"> OUR MOTIVE</h2>
+        <div class="explore__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="explore__grid">
+        <div class="explore__card">
+          <span><i class="fa-regular fa-truck-fast"></i></span><br>
+          <h4>Fast</h4><hr><br><br>
+          <p>
+            Accelerating Success in Logistics: HH Logistics - Where Swift Solutions<br> Meet Seamless Deliver
+          </p><br><br>
+          <a href="javascript:void(0);" onclick="joinNow('Fast')">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="fa-solid fa-thumbs-up"></i></span>
+          <h4>Efficient</h4><hr><br><br>
+          <p>
+            Efficiency Redefined: HH Logistics - Streamlining Logistics for a Seamless and Swift Journey.
+          </p><br><br>
+          <a href="javascript:void(0);" onclick="joinNow('Efficient')">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class=""></i></span>
+          <h4>Economical</h4><hr><br><br>
+          <p>
+            Economical Excellence in Motion: HH Logistics - Navigating Logistics with Cost-Effective Precision
+          </p><br><br>
+          <a href="javascript:void(0);" onclick="joinNow('Economical')">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class=""></i></span>
+          <h4>Trustable</h4><hr><br><br>
+          <p>
+            Trusted Transit, Unrivaled Reliability: HH Logistics  - Your Partner for Dependable Logistics Solutions
+          </p><br><br>
+          <a href="javascript:void(0);" onclick="joinNow('Trustable')">Join Now <i class="ri-arrow-right-line"></i></a>
+        </div>
+
+
+        
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="Services">
+      <div class="class__image">
+        <span class="bg__blur"></span>
+        <img src="images/l1.jpg" alt="class" class="class__img-1" />
+        <img src="images/l2.jpg" alt="class" class="class__img-2" />
+      </div>
+      <div class="class__content">
+        <h2 class="section__header">THE SERVICES YOU WILL GET HERE</h2>
+        <p><b>Express Freight Delivery:</b>
+        Ssecure transportation of goods, ensuring timely delivery to meet your urgent shipping needs.
+        Real-time tracking  for transparency and peace of mind.<br><br>
+         <b> Warehousing Solutions:</b>   
+          State-of-the-art warehousing facilities for efficient storage and distribution of products.
+         <br><br>
+          <b>Global Supply Chain Management:</b>
+           logistics solutions for international shipments, including customs clearance and documentation.
+          Optimization of supply chain processes to enhance efficiency, reduce costs, and minimize lead times.
+        </p>
+        <button class="btn">Book an Order</button>
+      </div>
+    </section>
+
+    <section class="section__container join__container" id="why-us">
+      <h2 class="section__header">WHY CHOOSE US ?</h2>
+      <p class="section__subheader">
+        Choose us for reliable logistics solutions tailored to your needs. Our global reach, local touch, and innovative technology ensure cost-effective efficiency 
+      </p>
+      <div class="join__image">
+        <img src="images/js.jpg" alt="Join" />
+        <div class="join__grid">
+          <div class="join__card">
+            <span><i class="ri-user-star-fill"></i></span>
+            <div class="join__card__content">
+              <h4>Individual Guidence</h4>
+              <p>We will guide you individually to any of your problem</p>
+            </div>
+          </div>
+          <div class="join__card">
+            <span><i class="ri-vidicon-fill"></i></span>
+            <div class="join__card__content">
+              <h4>Online Booking</h4>
+              <p>Yeah! we are modern and we take online oders too</p>
+            </div>
+          </div>
+          <div class="join__card">
+            <span><i class="ri-building-line"></i></span>
+            <div class="join__card__content">
+              <h4>Good Management</h4>
+              <p>Supportive management, for your goods and logistics .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container price__container">
+      <h2 class="section__header">OUR PRICING PLAN</h2>
+      <p class="section__subheader">
+        Our pricing plan comes with various membership tiers, each tailored to
+        cater to different preferences and fitness aspirations.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Basic Plan</h4>
+            <h3>$300</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Cost-Effective Shipping
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard Delivery Time
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Basic Tracking
+            </p>
+          </div>
+          <button class="btn price__btn" onclick="buyPlan('Basic')">Buy Now</button>
+        </div>
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Standard Plan</h4>
+            <h3>$500</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Express Shipping
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Advanced Tracking and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Notifications
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Warehousing Benefit
+            </p>
+          </div>
+          <button class="btn price__btn" onclick="buyPlan('Standard')">Buy Now</button>
+        </div>
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Premium Plan</h4>
+            <h3>$1000</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Expedited and Global Shipping
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Comprehensive Tracking and &nbsp;&nbsp;Analytics
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Priority Customer Support
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Full Suite of Logistics Services
+            </p>
+            
+             
+          </div>
+          <button class="btn price__btn" onclick="buyPlan('Premium')">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="section__container review__container">
+        <span><i class="ri-double-quotes-r"></i></span>
+        <div class="review__content">
+          <h4>MEMBER REVIEW</h4>
+          <p>
+            I recently engaged with HH Logistics for my shipping needs, and the experience exceeded my expectations. The team demonstrated a high level of professionalism and dedication to ensuring my cargo reached its destination seamlessly. Even as a new player in the industry, their commitment to service quality and efficiency is truly commendable. I look forward to continuing our partnership and witnessing the growth of this promising logistics company
+          </p>
+          
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-fill"></i></span>
+          </div>
+          <div class="review__footer">
+            <div class="review__member">
+              <img src="images/team1.jpg" alt="member" />
+              <div class="review__member__details">
+                <h4>Jone Doe</h4>
+                <p>Supply Chain Manager</p>
+              </div>
+            </div>
+            <div class="review__nav">
+              <span><i class="ri-arrow-left-line"></i></span>
+              <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section__container footer__container" id="footer">
+      <span class="bg__blur"></span>
+      <span class="bg__blur footer__blur"></span>
+      <div class="footer__col">
+        <div class="footer__logo"><img src="images/logo2,jpg.jpg" alt="logo" /></div>
+        <p>
+          Embark on a journey of seamless logistics with HH Logistics. Where every mile is a promise delivered, and every partnership is a testament to excellence. Let's navigate success together!
+        </p>
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/profile.php?id=100030395737975"><i class="ri-facebook-fill"></i></a>
+          <a href="https://www.instagram.com/g_humzaa/"><i class="ri-instagram-line"></i></a>
+          <a href="https://github.com/HGhulamHamza"><i class="ri-github-line"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#">Business</a>
+        <a href="#">Franchise</a>
+        <a href="#">Partnership</a>
+        <a href="#">Network</a>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <a href="#">Blogs</a>
+        <a href="#">Security</a>
+        <a href="#">Careers</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+       
+      </div>
+    </footer>
+    <div class="footer__bar" align="center">
+      Copyright © 2024 Ghulam Hamza Young Dev Intern. All rights reserved.
+    </div>
+  </body>
+</html>
